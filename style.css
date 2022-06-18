@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0e0e0e;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 17%;
+    padding-right: 17%;
+    font-size: 15px;
+    /* font-family: 'Poppins', 'sans-serif';
+     */
+}
+
+main{
+    background-color: hsl(0, 0%, 95%);
+    
+    /* width: 811px; */
+    /* aspect-ratio: auto 811 / 450; */
+    height: 485px;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    margin-left: 40%;
+    margin-bottom: 2px;
+}
+
+h1 a{
+    color: rgb(212, 212, 212);
+}
+
+h1 a:hover {
+    color: white;
+}
+
+
+
+#all{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    /* margin: auto; */
+    padding: 10%;
+    overflow: hidden;
+    border-collapse: separate;
+    
+}
+
+.content{
+    padding: 30px;
+}
+
+.img{
+    padding: 7px;
+    height: 40px;
+    width: 55px;
+}
+
+#seadans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#lux{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p{
+    font-size: 10px;
+    padding: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: .7;
+}
+
+h2{
+    /* padding: 5px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 26px;
+    /* font-stretch: ultra-expanded; */
+}
+
+button{
+    margin-top: 45px;
+    color: hsl(0, 0%, 95%);
+    height: 30px;
+    width: 90px;
+    border: 2px;
+    border-radius: 20px;
+    /* opacity: .7; */
+    font-size: 10px;
+}
+
+.buttons:hover {
+    background-color: hsl(0, 0%, 95%);
+  }
+
+#one{
+    color: hsl(31, 77%, 52%);
+}
+
+#one:hover {
+    height: 30px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+  }
+
+#two{
+    color: hsl(184, 100%, 22%);
+}
+
+#three{
+    color: hsl(179, 100%, 13%);
+}
+
+/* @media screen and (max-width: 1440px) {
+    #all {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #all {
+        display: block;
+    }
+} */
